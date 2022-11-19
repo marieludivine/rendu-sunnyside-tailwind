@@ -26,9 +26,9 @@ module.exports = {
       },
 
       backgroundImage: {
-        'header': "url('/images/mobile/image-header.jpg')",
-        'cherry': "url('/images/mobile/image-graphic-design.jpg')",
-        'photography': "url('/images/mobile/image-photography.jpg')",
+        'header': "url('/images/desktop/image-header.jpg')",
+        'cherry': "url('/images/desktop/image-graphic-design.jpg')",
+        'photography': "url('/images/desktop/image-photography.jpg')",
       }
     },
   },
