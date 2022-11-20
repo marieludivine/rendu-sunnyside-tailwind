@@ -14,8 +14,8 @@ module.exports = {
        'very-dark-blue-gray':'#232F3D',
        'gray-blue':'#5A626C',
        'gray-blue-light':'#808397',
-       'gray-blue-very-light':'#A7AAAE'
-
+       'gray-blue-very-light':'#A7AAAE',
+      'footer':'#91d3c6'
       },
 
       fontFamily:{

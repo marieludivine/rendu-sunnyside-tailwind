@@ -12,7 +12,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&display=swap" rel="stylesheet">
 <!-- title -->
     <title>SunniSide_Agency</title>
 </head>
@@ -21,9 +21,17 @@
 <body>
 
 <header class="bg-header bg-no-repeat bg-center bg-cover px-6">
-    <div class="flex justify-between pt-5">
-        <img src="/images/logo.svg" alt="">
-        <img class="p-2 " src="/images/icon-hamburger.svg" alt="">
+    <div class="flex justify-between pt-5 md:pt-7">
+        <img class="md:h-6" src="/images/logo.svg" alt="">
+        <img class="p-2 md:hidden " src="/images/icon-hamburger.svg" alt="">
+        
+        <div class="hidden md:flex md:justify-between md:items-center md:gap-6">
+            <p class="md:font-barlow md:text-white ">About</p>
+            <p class="md:font-barlow md:text-white ">Services</p>
+            <p class="md:font-barlow md:text-white ">Projects</p>
+            <div class="md:bg-white md:py-4 md:px-6 md:rounded-full "><p class="font-fraunces text-black text-sm uppercase">Contact</p></div>
+        </div>
+   
     </div>
     
         <h1 class="font-fraunces text-4xl text-center text-white pt-14 pb-20 tracking-widest uppercase">We are creatives </h1>
@@ -116,14 +124,16 @@
         <img class="w-1/2" src="/images/desktop/image-gallery-sugarcubes.jpg" alt="">
     </div>
 </div>
-<footer class="bg-emerald-200">
+<footer class="bg-footer">
+    
     <h1 class="font-barlow text-Dark-moderate-cyan text-4xl font-black text-center p-9">sunnyside</h1>
-    <div class="flex justify-between p-9">
+    <div class="flex justify-between p-9 md:justify-center md:gap-9">
         <p class="text-barlow text-Dark-moderate-cyan text-lg">About</p>
         <p class="text-barlow text-Dark-moderate-cyan text-lg">services</p>
         <p class="text-barlow text-Dark-moderate-cyan text-lg">Project</p>
     </div>
-    <div class="flex px-32 py-20 justify-around">
+
+    <div class="flex px-32 py-20 justify-around md:justify-center md:gap-7">
         <img src="/images/icon-facebook.svg" alt="">
         <img src="/images/icon-instagram.svg" alt="">
         <img src="/images/icon-twitter.svg" alt="">
